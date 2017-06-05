@@ -39,9 +39,8 @@ body {
 }
 nav {
   width: 900px;
-  margin: 0 auto;
+  margin: 3em auto;
   background: #805C15;
-  margin-bottom: 2em;
 }
 nav li {
   width: 30%;
@@ -51,6 +50,13 @@ nav li {
   text-align: center;
   line-height: 3em;
   font-size: 150%;
+}
+
+#ad-div {
+  width: 120px;
+  text-align: center;
+  margin: 17.5em auto;
+
 }
 
 #ad-section {
@@ -80,12 +86,17 @@ background: #116611;
 
 .body-articles {
 background: #550000;
-width: 24%;
+width: 22%;
 display:block;
 float: left;
 margin-bottom: 4em;
+padding: 1%;
 }
 
 #foot {
+  float: right;
+width: 77.08333333333333%;
 background: #004400;
+margin-right: 4.4em;
+margin-bottom: 3em;
 }
