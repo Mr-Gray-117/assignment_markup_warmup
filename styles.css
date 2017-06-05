@@ -31,25 +31,48 @@ body {
 
 #body-div {
   width: 960px;
-  margin: 0 auto;
+  margin: 5em auto;
 }
 
 #fix-nav {
 
 }
 nav {
+  position: fixed;
+  z-index: 9999;
   width: 900px;
-  margin: 3em auto;
+  margin-left: 6.5em;
+  top: 0;
+  left: 0;
   background: #805C15;
 }
 nav li {
-  width: 30%;
+  width: 33.3%;
   float: left;
   list-style-type: none;
   border: solid ridge 3px black;
   text-align: center;
   line-height: 3em;
   font-size: 150%;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #D4A06A;
+}
+
+#head-1 {
+width: 74%;
+margin-left: 1%;
+float: right;
+margin-bottom: 1em;
+border-radius: 3px;
+text-align: center;
 }
 
 #ad-div {
@@ -60,7 +83,7 @@ nav li {
 }
 
 #ad-section {
-background: #AA3939;
+background: #A95486;
 display: block;
 float: left;
 width: 25%;
@@ -85,7 +108,7 @@ background: #116611;
 }
 
 .body-articles {
-background: #550000;
+background: #669999;
 width: 22%;
 display:block;
 float: left;
@@ -94,9 +117,39 @@ padding: 1%;
 }
 
 #foot {
-  float: right;
-width: 77.08333333333333%;
-background: #004400;
+float: right;
+width: 64%;
+background: #172457;
 margin-right: 4.4em;
 margin-bottom: 3em;
+text-align: center;
+padding: 0.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 740px)
+ {
+
+body {
+  background: white;
+}
+
 }
