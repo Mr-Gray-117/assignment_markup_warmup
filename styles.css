@@ -37,13 +37,28 @@ body {
 #fix-nav {
 
 }
+nav {
+  width: 900px;
+  margin: 0 auto;
+  background: #805C15;
+  margin-bottom: 2em;
+}
+nav li {
+  width: 30%;
+  float: left;
+  list-style-type: none;
+  border: solid ridge 3px black;
+  text-align: center;
+  line-height: 3em;
+  font-size: 150%;
+}
 
 #ad-section {
 background: #AA3939;
 display: block;
 float: left;
 width: 25%;
-height:33.75em;
+height:35em;
 }
 
 
@@ -59,13 +74,18 @@ background: #88CC88;
 background: #116611;
 }
 
+.mar-boxs{
+  margin: 0 0 0 1%;
+}
+
 .body-articles {
 background: #550000;
-width: 25%;
+width: 24%;
 display:block;
 float: left;
+margin-bottom: 4em;
 }
 
 #foot {
-background: #116611;
+background: #004400;
 }
