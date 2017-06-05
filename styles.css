@@ -22,3 +22,50 @@
 .flex{
   max-width: 100%;
 }
+
+body {
+  width: 1100px;
+  background: #2D882D;
+  margin: 0 auto;
+}
+
+#body-div {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#fix-nav {
+
+}
+
+#ad-section {
+background: #AA3939;
+display: block;
+float: left;
+width: 25%;
+height:33.75em;
+}
+
+
+
+#sec-1 {
+background: #116611;
+}
+
+#head-1 {
+background: #88CC88;
+}
+#sec-2 {
+background: #116611;
+}
+
+.body-articles {
+background: #550000;
+width: 25%;
+display:block;
+float: left;
+}
+
+#foot {
+background: #116611;
+}
