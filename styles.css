@@ -24,14 +24,16 @@
 }
 
 body {
-  width: 1100px;
-  background: #2D882D;
+  max-width: 1100px;
+  min-width: 741px;
+  background: #DCDCDD;
   margin: 0 auto;
 }
 
 #body-div {
   width: 960px;
-  margin: 5em auto;
+  margin: 0 auto;
+  margin-top: 5em;
 }
 
 #fix-nav {
@@ -50,7 +52,6 @@ nav li {
   width: 33.3%;
   float: left;
   list-style-type: none;
-  border: solid ridge 3px black;
   text-align: center;
   line-height: 3em;
   font-size: 150%;
@@ -100,7 +101,7 @@ background: #116611;
 background: #88CC88;
 }
 #sec-2 {
-background: #116611;
+  background: #DCDCDD;
 }
 
 .mar-boxs{
@@ -149,7 +150,123 @@ padding: 0.5%;
  {
 
 body {
-  background: white;
+  background: #DCDCDD;
+
 }
+
+
+nav {
+  position: fixed;
+  z-index: 9999;
+  width: 80%;
+  margin-left: 10%;
+  top: 0;
+  left: 0;
+  background: #805C15;
+}
+nav li {
+  width: 33.3%;
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 150%;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #D4A06A;
+}
+
+body {
+  max-width: 740px;
+  min-width: 500px;
+}
+
+#body-div {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+#head-1 {
+width: 100%;
+margin-left: 1%;
+margin-bottom: 1em;
+border-radius: 3px;
+text-align: center;
+}
+
+#ad-div {
+display: none;
+
+}
+
+#ad-section {
+display: none;
+}
+
+
+
+#sec-1 {
+background: #116611;
+}
+
+#head-1 {
+background: #88CC88;
+}
+#sec-2 {
+  background: #DCDCDD;
+}
+
+.top-2-articles {
+  width: 47.5%;
+  margin: 0;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+#r-margin {
+  margin-right: 0.5%;
+}
+
+#b-article {
+display: block;
+text-align: center;
+float: none;
+clear: both;
+width: 98%;
+margin-bottom: 3em;
+margin-left: 0;
+}
+
+.body-articles {
+background: #669999;
+}
+
+#foot {
+  float: none;
+width: 99%;
+background: #172457;
+margin-bottom: 3em;
+text-align: center;
+padding: 0.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 }
