@@ -112,7 +112,7 @@ background: #669999;
 width: 22%;
 display:block;
 float: left;
-margin-bottom: 4em;
+margin-bottom: 1em;
 padding: 1%;
 text-align: center;
 }
@@ -121,8 +121,7 @@ text-align: center;
 float: right;
 width: 73%;
 background: #172457;
-
-margin-bottom: 3em;
+margin-bottom: 4em;
 text-align: center;
 padding: 0.5%;
 }
